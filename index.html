@@ -1,32 +1,62 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <section class="top center">
-        <h1 class="top__title">Добро пожаловать на мой сайт!</h1>
-        <p class="top__text">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <span class="top__text--bold">поехали</span> и <span class="top__text--bold">приступай</span></p>
-        <button class="top__btn">Поехали!</button>
+      <h1 class="top__title">Добро пожаловать на мой сайт!</h1>
+      <p class="top__text">
+        Вам предстоит пройти несколько увлекательных игр. Если готов нажимай
+        <span class="top__text--bold">поехали</span> и
+        <span class="top__text--bold">приступай</span>
+      </p>
+      <button class="top__btn">Поехали!</button>
     </section>
     <section class="product center">
-        <article class="product__box">
-            <a href="#"><img src="img/product1.png" alt="game 1"><p class="product__text">Игра 1</p></a>
-        </article>
-        <article class="product__box">
-            <a href="#"><img src="img/product2.png" alt="game 2"><p class="product__text">Игра 2</p></a>
-        </article>
-        <article class="product__box">
-            <a href="#"><img src="img/product3.png" alt="game 3"><p class="product__text">Игра 3</p></a>
-        </article>
+      <article class="product__box">
+        <a class="product__link" href="#"
+          ><img class="product__img" src="img/product1.png" alt="game 1" />
+          <p class="product__text">Игра 1</p></a
+        >
+      </article>
+      <article class="product__box">
+        <a class="product__link" href="#"
+          ><img class="product__img" src="img/product2.png" alt="game 2" />
+          <p class="product__text">Игра 2</p></a
+        >
+      </article>
+      <article class="product__box">
+        <a class="product__link" href="#"
+          ><img class="product__img" src="img/product3.png" alt="game 3" />
+          <p class="product__text">Игра 3</p></a
+        >
+      </article>
     </section>
-    
-</body>
+
+    <section class="bottom center">
+        <article class="bottom_left">
+            <h1 class="bottom__title">Времена года!</h1>
+      <p class="bottom__text">
+        Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к
+        какому времени года он относится </p>
+        <button class="bottom__btn">Играть!</button>
+        </article>
+      <article class="bottom_right">
+        <img class="bottom__img" src="img/bottom_img.svg" alt="picture">
+      </article>  
+    </section>
+
+    <script src="script.js"></script>
+  </body>
 </html>
