@@ -14,7 +14,6 @@
         return "Вы ввели неверное значение!";
     }
 }
-
 console.log(whichSeason(5));
 
        // Homework 6
