@@ -16,5 +16,5 @@ function getSeason() {
 }
 
 let season = getSeason();
-console.log("Сезон:" + season);
+console.log("Сезон: " + season);
 
