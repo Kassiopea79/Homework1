@@ -1,8 +1,8 @@
 // task 1
 
-function whichSeason(month) {
-    const season = prompt("Введите число:");
-    if (month === 1 && month === 2 || month === 12) {
+function getSeason() {
+    const month = prompt("Введите число (1 - 12):");
+    if (month === 1 || month === 2 || month === 12) {
         return "Зима";
     } else if (month >= 3 && month <= 5) {
         return "Весна";
@@ -15,4 +15,6 @@ function whichSeason(month) {
     }
 }
 
-console.log(whichSeason(5));
+let season = getSeason();
+console.log("Сезон:" + season);
+
