@@ -18,6 +18,7 @@ function whichSeason() {
 let season = whichSeason();
 console.log("Сейчас сезон: " + season);
 
+
 // Homework 6
 
 // task 1
@@ -139,3 +140,5 @@ const newArr = [3, 5, 2, 7, 4, 9, 1, 8, 6, 10];
 for (let i = 0; i < newArr.length - 1; i++) {
   console.log(newArr[i] + newArr[i + 1]);
 }
+
+
