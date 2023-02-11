@@ -2,7 +2,7 @@
 
 function whichSeason() {
   let month = prompt("Введите число 1 - 12: ");
-  if ((month === 1 || month === 2) || month === 12) {
+  if (month === 1 || month === 2 || month === 12) {
     return "Зима";
   } else if (month >= 3 && month <= 5) {
     return "Весна";
