@@ -215,7 +215,8 @@ body {
   }
 
   .bottom__img {
-   scale: 0.6;
+    width: 100%;
+    scale: 0.6;
   }
   }
 
