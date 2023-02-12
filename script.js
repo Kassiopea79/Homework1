@@ -20,6 +20,3 @@ console.log("Сейчас сезон: " + season);
 
 
 
-
-
-
